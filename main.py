@@ -1,11 +1,11 @@
 from src import gene, plot
 
 def main():
-    inputFilename = 'input/data.csv'
-    outputFilename = 'output/data.csv'
+    inputFile = 'input/data.csv'
+    outputFile = 'output/data.csv'
 
-    gene.generateExtendedData(inputFilename, outputFilename)
-    plot.plotData(outputFilename)
+    gene.generateExtendedData(inputFile, outputFile)
+    plot.plotData(outputFile)
 
 if __name__ == "__main__":
     main()
